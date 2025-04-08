@@ -8,7 +8,7 @@ export default async function handler(req, res) {
   }
 
   try {
-    const webhookURL = "https://TON_WEBHOOK_PROD_N8N"; // ← à personnaliser ici
+    const webhookURL = "https://maxsurf.app.n8n.cloud/webhook-test/1989a0a5-ded5-46cd-bd98-afac3e7bb4e1; // ← à personnaliser ici
 
     const result = await fetch(webhookURL, {
       method: "POST",
